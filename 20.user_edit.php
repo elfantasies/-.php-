@@ -3,7 +3,7 @@
     error_reporting(0);
     session_start();
     if (!$_SESSION["id"]) {
-        echo "Please Log In Your Acocount";
+        echo "Please Log In Your Account";
         echo "<meta http-equiv=REFRESH content='3, url=2.login.html'>";
     }
     else{   
